@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$primary-cyan: hsl(179, 62%, 43%);
+$primary-yellow: hsl(71, 73%, 54%);
+$neutral-gray: hsl(204, 43%, 93%);
+$neutral-blue: hsl(218, 22%, 67%);
+$bg-why: #4ABEBD;
+
+$font-karla: 'Karla', sans-serif;
+
+body {
+    font-family: $font-karla;
+    font-size: 1.6rem;
+    background-color: $neutral-gray;
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding-bottom: 22px;
+}
+
+/*-----------------------INTRODUCTION SECTION----------------------------------------------*/
+h1 {
+    color: $primary-cyan;
+    padding-bottom: 26px;
+}
+
+#introduction {
+    background-color: white;
+    color: $neutral-blue;
+}
+
+#introduction > span {
+    display: block;
+    color: $primary-yellow;
+    padding-bottom: 16px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#introduction > p {
+    line-height: 22px;
+}
+
+/*-----------------------SUBSCRIPTION SECTION----------------------------------------------*/
+#subscription,
+#why {
+    color: white;
+}
+
+#subscription {
+    background-color: $primary-cyan;
+}
+
+.money {
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 12.5px;
+}
+
+.period {
+    color: #ddd;
+}
+
+#subscription > div{
+    padding-bottom: 12.5px;
+}
+
+#subscription > span {
+    display: block;
+    padding-bottom: 25px;
+}
+
+button {
+    background-color: $primary-yellow;
+    font-weight: 700;
+    color: white;
+}
+
+/*-----------------------WHY SECTION----------------------------------------------*/
+#why {
+    background-color: $bg-why;
+    
+    p {
+        font-size: 1.4rem;
+        line-height: 20px;
+    }
+}
+
+

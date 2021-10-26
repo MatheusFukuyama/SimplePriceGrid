@@ -29,3 +29,8 @@ The designs were created to the following widths:
 
 - Family: [Karla](https://fonts.google.com/specimen/Karla)
 - Weights: 400, 700
+
+padding-x: 39px;
+padding-y: 45px;
+
+h1-padding-bottom: 26px; || line-height: 50px;
