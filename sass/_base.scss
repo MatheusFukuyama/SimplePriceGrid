@@ -10,19 +10,20 @@ $font-karla: 'Karla', sans-serif;
 
 body {
     font-family: $font-karla;
-    font-size: 1.6rem;
+    font-size: 1.56rem;
     background-color: $neutral-gray;
 }
 
 h2 {
-    font-size: 1.8rem;
-    padding-bottom: 22px;
+    font-size: 1.75rem;
+    padding-bottom: 17px;
 }
 
 /*-----------------------INTRODUCTION SECTION----------------------------------------------*/
 h1 {
     color: $primary-cyan;
     padding-bottom: 26px;
+    font-size: 2.35rem;
 }
 
 #introduction {
@@ -33,13 +34,14 @@ h1 {
 #introduction > span {
     display: block;
     color: $primary-yellow;
-    padding-bottom: 16px;
-    font-size: 1.8rem;
+    padding-bottom: 11px;
+    font-size: 1.75rem;
     font-weight: 700;
 }
 
 #introduction > p {
-    line-height: 22px;
+    line-height: 24px;
+    width: 60ch;
 }
 
 /*-----------------------SUBSCRIPTION SECTION----------------------------------------------*/
@@ -53,9 +55,9 @@ h1 {
 }
 
 .money {
-    font-size: 30px;
+    font-size: 3.1rem;
     font-weight: 700;
-    padding-right: 12.5px;
+    padding-right: 12px;
 }
 
 .period {
@@ -63,17 +65,20 @@ h1 {
 }
 
 #subscription > div{
-    padding-bottom: 12.5px;
+    display: flex;
+    padding-bottom: 8.5px;
+    align-items: center;
 }
 
 #subscription > span {
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 29px;
 }
 
 button {
     background-color: $primary-yellow;
     font-weight: 700;
+    font-size: 1.4rem;
     color: white;
 }
 
@@ -81,8 +86,12 @@ button {
 #why {
     background-color: $bg-why;
     
+    h2 {
+        padding-bottom: 19px;
+    }
+
     p {
-        font-size: 1.4rem;
+        font-size: 1.35rem;
         line-height: 20px;
     }
 }

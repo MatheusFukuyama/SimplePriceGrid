@@ -26,7 +26,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 216px auto;
     grid-template-areas:
         "introduction introduction"
         "subscription why";
@@ -45,5 +45,6 @@ main {
 }
 
 section {
-    padding: 45px 39px;
+    padding: 41px 41px;
+    padding-bottom: 37px;
 }
