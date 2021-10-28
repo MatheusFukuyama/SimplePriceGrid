@@ -1,3 +1,9 @@
-@use './base';
-@use './layout';
-@use './components';
+@use './base/base';
+@use './base/introduction';
+@use './base/subscription';
+@use './base/why';
+@use './components/components';
+@use './layout/layout';
+@use './layout/body';
+@use './layout/main';
+@use './layout/section';

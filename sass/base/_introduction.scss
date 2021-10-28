@@ -1,0 +1,25 @@
+@use './base' as base;
+
+h1 {
+    color: base.$primary-cyan;
+    padding-bottom: 26px;
+    font-size: 2.35rem;
+}
+
+#introduction {
+    background-color: white;
+    color: base.$neutral-blue;
+}
+
+#introduction > span {
+    display: block;
+    color: base.$primary-yellow;
+    padding-bottom: 11px;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+#introduction > p {
+    line-height: 24px;
+    max-width: 60ch;
+}

@@ -10,7 +10,11 @@ h2 {
   padding-bottom: 17px;
 }
 
-/*-----------------------INTRODUCTION SECTION----------------------------------------------*/
+#subscription,
+#why {
+  color: white;
+}
+
 h1 {
   color: #2ab2af;
   padding-bottom: 26px;
@@ -32,13 +36,7 @@ h1 {
 
 #introduction > p {
   line-height: 24px;
-  width: 60ch;
-}
-
-/*-----------------------SUBSCRIPTION SECTION----------------------------------------------*/
-#subscription,
-#why {
-  color: white;
+  max-width: 60ch;
 }
 
 #subscription {
@@ -73,7 +71,6 @@ button {
   color: white;
 }
 
-/*-----------------------WHY SECTION----------------------------------------------*/
 #why {
   background-color: #4ABEBD;
 }
@@ -83,6 +80,13 @@ button {
 #why p {
   font-size: 1.35rem;
   line-height: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 16.4px 0;
+  border: none;
+  border-radius: 5px;
 }
 
 * {
@@ -102,7 +106,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 32px;
+  min-height: 100vh;
   width: 1440px;
 }
 
@@ -113,7 +118,7 @@ main {
   border-radius: 10px;
   overflow: hidden;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 216px auto;
+  grid-template-rows: auto auto;
   grid-template-areas: "introduction introduction" "subscription why";
 }
 main #introduction {
@@ -126,16 +131,16 @@ main #why {
   grid-area: why;
 }
 
+@media screen and (max-width: 505px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "introduction" "subscription" "why";
+  }
+}
 section {
   padding: 41px 41px;
   padding-bottom: 37px;
-}
-
-button {
-  width: 100%;
-  padding: 16.4px 0;
-  border: none;
-  border-radius: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+@use './base' as base;
+
+#subscription {
+    background-color: base.$primary-cyan;
+}
+
+.money {
+    font-size: 3.1rem;
+    font-weight: 700;
+    padding-right: 12px;
+}
+
+.period {
+    color: #ddd;
+}
+
+#subscription > div{
+    display: flex;
+    padding-bottom: 8.5px;
+    align-items: center;
+}
+
+#subscription > span {
+    display: block;
+    padding-bottom: 29px;
+}
+
+button {
+    background-color: base.$primary-yellow;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: white;
+}

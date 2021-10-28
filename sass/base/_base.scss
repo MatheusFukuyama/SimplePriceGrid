@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+$primary-cyan: hsl(179, 62%, 43%);
+$primary-yellow: hsl(71, 73%, 54%);
+$neutral-gray: hsl(204, 43%, 93%);
+$neutral-blue: hsl(218, 22%, 67%);
+$bg-why: #4ABEBD;
+
+$font-karla: 'Karla', sans-serif;
+
+body {
+    font-family: $font-karla;
+    font-size: 1.56rem;
+    background-color: $neutral-gray;
+}
+
+h2 {
+    font-size: 1.75rem;
+    padding-bottom: 17px;
+}
+
+#subscription,
+#why {
+    color: white;
+}
+
+
+

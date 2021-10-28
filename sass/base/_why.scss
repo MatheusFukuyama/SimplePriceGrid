@@ -1,0 +1,14 @@
+@use './base' as base;
+
+#why {
+    background-color: base.$bg-why;
+    
+    h2 {
+        padding-bottom: 19px;
+    }
+
+    p {
+        font-size: 1.35rem;
+        line-height: 20px;
+    }
+}
