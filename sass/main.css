@@ -15,6 +15,15 @@ h2 {
   color: white;
 }
 
+@media screen and (max-width: 376px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  body {
+    font-size: 1.37rem;
+  }
+}
 h1 {
   color: #2ab2af;
   padding-bottom: 26px;
@@ -39,6 +48,21 @@ h1 {
   max-width: 60ch;
 }
 
+@media screen and (max-width: 376px) {
+  h1 {
+    font-size: 1.96rem;
+  }
+
+  #introduction > span {
+    font-size: 1.47rem;
+    padding-bottom: 20px;
+  }
+
+  #introduction > p {
+    line-height: 26px;
+    max-width: 60ch;
+  }
+}
 #subscription {
   background-color: #2ab2af;
 }
@@ -106,7 +130,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px;
+  padding: 72px 32px 76px 32px;
   min-height: 100vh;
   width: 1440px;
 }
@@ -133,14 +157,21 @@ main #why {
 
 @media screen and (max-width: 505px) {
   main {
+    border-radius: 5px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "introduction" "subscription" "why";
   }
 }
 section {
   padding: 41px 41px;
   padding-bottom: 37px;
+}
+
+@media screen and (max-width: 505px) {
+  section {
+    padding: 29px 24px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

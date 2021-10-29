@@ -24,5 +24,12 @@ h2 {
     color: white;
 }
 
-
-
+@media screen and ( max-width: 376px ) {
+    h2 {
+        font-size: 1.75rem;
+    }
+   
+    body {
+       font-size: 1.37rem;
+   }
+}

@@ -23,3 +23,19 @@ h1 {
     line-height: 24px;
     max-width: 60ch;
 }
+
+@media screen and ( max-width: 376px ) {
+    h1 {
+        font-size: 1.96rem;
+    }
+
+    #introduction > span {
+        font-size: 1.47rem;
+        padding-bottom: 20px;
+    }
+
+    #introduction > p {
+        line-height: 26px;
+        max-width: 60ch;
+    }
+}

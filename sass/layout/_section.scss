@@ -2,3 +2,10 @@ section {
     padding: 41px 41px;
     padding-bottom: 37px;
 }
+
+
+@media screen and ( max-width: 505px ) {
+    section {
+        padding: 29px 24px;
+    }
+}
