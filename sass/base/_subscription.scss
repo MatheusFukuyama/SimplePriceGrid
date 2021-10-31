@@ -31,3 +31,22 @@ button {
     font-size: 1.4rem;
     color: white;
 }
+
+@media screen and ( max-width: 376px ) {
+
+    #subscription {
+        padding-top: 31px;
+    }
+
+    .money {
+        padding-right: 14px;
+    }
+
+    .period {
+        font-size: 1.55rem;
+    }
+
+    #subscription > span {
+        font-size: 1.55rem;
+    }
+}

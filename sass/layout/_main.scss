@@ -4,6 +4,7 @@ main {
     max-width: 635px;
     border-radius: 10px;
     overflow:hidden;
+    box-shadow: 0px 10px 30px 1px rgba(0, 0, 0, 0.1);
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     grid-template-areas:

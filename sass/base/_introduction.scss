@@ -30,6 +30,7 @@ h1 {
     }
 
     #introduction > span {
+        line-height: normal;
         font-size: 1.47rem;
         padding-bottom: 20px;
     }
@@ -37,5 +38,7 @@ h1 {
     #introduction > p {
         line-height: 26px;
         max-width: 60ch;
+        padding-bottom: 1px;
     }
+
 }
